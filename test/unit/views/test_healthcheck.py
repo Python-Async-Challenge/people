@@ -1,6 +1,6 @@
 
 from fastapi.testclient import TestClient
-from src.main import app, VERSION_1_BASE_ROUTE
+from main import app, VERSION_1_BASE_ROUTE
 
 
 client = TestClient(app)
